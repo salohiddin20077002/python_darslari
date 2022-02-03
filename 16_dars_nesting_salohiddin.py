@@ -94,58 +94,58 @@
 
 
 
-# Davlatlar = {"h" : "448978kv.km",
-#               "a" : "3500000",
-#               "f" : "Toshkent"
-#               }
+Davlatlar = {"h" : "448978kv.km",
+              "a" : "3500000",
+              "f" : "Toshkent"
+              }
 
-# davlat = {"h" : "17098246kv.km",
-#           "a" : "145678578",
-#           "f" : "Moskva",
-#           }
+davlat = {"h" : "17098246kv.km",
+          "a" : "145678578",
+          "f" : "Moskva",
+          }
  
-# dunyo = {"h" : "9631420kv.km",
-#           "a" : "75375453",
-#           "p" : "Washinton"
-#           }
+dunyo = {"h" : "9631420kv.km",
+          "a" : "75375453",
+          "p" : "Washinton"
+          }
 
-# print("O'zbekiston poytaxti", Davlatlar["f"] ,"shahri" ,"\n" ,"hududi" , Davlatlar["h"] ,"\n" , "aholisi", Davlatlar["a"])
-# print("Rossiya  poytaxti" , davlat["f"] , "\n" , "hududi", davlat["h"] , "\n" , "aholisi" , davlat["a"])
-# print("Aqshning poytaxti" , dunyo["p"], "\n" , "hududi" , dunyo["h"] , "\n" , "aholisi", dunyo["a"])
-
-
+print("O'zbekiston poytaxti", Davlatlar["f"] ,"shahri" ,"\n" ,"hududi" , Davlatlar["h"] ,"\n" , "aholisi", Davlatlar["a"])
+print("Rossiya  poytaxti" , davlat["f"] , "\n" , "hududi", davlat["h"] , "\n" , "aholisi" , davlat["a"])
+print("Aqshning poytaxti" , dunyo["p"], "\n" , "hududi" , dunyo["h"] , "\n" , "aholisi", dunyo["a"])
 
 
-# davlatlar = {
-#     "o'zbekiston":{'poytaxt':"toshkent",
-#                     'maydon':448978,
-#                     'aholi':33_000_000,
-#                     'pul birligi':"so'm"
-#                     },
-#     "rossiya":{'poytaxt':"moskva",
-#                     'maydon':17_098_246,
-#                     'aholi':144_000_000,
-#                     'pul birligi':"rubl"
-#                     },
-#     "aqsh":{'poytaxt':"vashington",
-#                     'maydon':9_631_418,
-#                     'aholi':327_000_000,
-#                     'pul birligi':"dollar"},
-#     "malayziya":{'poytaxt':"kuala-lumpur",
-#                     'maydon':329750,
-#                     'aholi':25_000_000,
-#                     'pul birligi':"rinngit"}
-#     }
 
-# davlat = input('Davlat nomini kiriting: ').lower()
-# if davlat in davlatlar:
-#     info = davlatlar[davlat]
-#     print(f"\n{davlat.capitalize()}ning poytaxti {info['poytaxt'].title()}"
-#           f"\nHududi: {info['maydon']} kv.km"
-#           f"\nAholisi: {info['aholi']}"
-#           f"\nPul birligi: {info['pul birligi']}")
-# else:
-#     print("Bizda bu davlat haqida ma'lumot mavjud emas")
+
+davlatlar = {
+    "o'zbekiston":{'poytaxt':"toshkent",
+                    'maydon':448978,
+                    'aholi':33_000_000,
+                    'pul birligi':"so'm"
+                    },
+    "rossiya":{'poytaxt':"moskva",
+                    'maydon':17_098_246,
+                    'aholi':144_000_000,
+                    'pul birligi':"rubl"
+                    },
+    "aqsh":{'poytaxt':"vashington",
+                    'maydon':9_631_418,
+                    'aholi':327_000_000,
+                    'pul birligi':"dollar"},
+    "malayziya":{'poytaxt':"kuala-lumpur",
+                    'maydon':329750,
+                    'aholi':25_000_000,
+                    'pul birligi':"rinngit"}
+    }
+
+davlat = input('Davlat nomini kiriting: ').lower()
+if davlat in davlatlar:
+    info = davlatlar[davlat]
+    print(f"\n{davlat.capitalize()}ning poytaxti {info['poytaxt'].title()}"
+          f"\nHududi: {info['maydon']} kv.km"
+          f"\nAholisi: {info['aholi']}"
+          f"\nPul birligi: {info['pul birligi']}")
+else:
+    print("Bizda bu davlat haqida ma'lumot mavjud emas")
 
 
 
